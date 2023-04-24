@@ -1,0 +1,30 @@
+.map {
+    width: 100%;
+    height: 100vh;
+    background: url("../../assets/map-bg.jpg") no-repeat center center/cover;
+    display: grid;
+    grid-template-columns: 13rem 1fr;
+    padding: 1.5rem;
+  }
+  
+  .title {
+    margin-top: 3rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .speed {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .gmap {
+  }
+  @media screen and (max-width: 540px) {
+    .map .container .bottom {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
