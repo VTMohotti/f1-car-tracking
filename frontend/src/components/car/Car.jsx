@@ -4,6 +4,7 @@ import CarList from "./CarList";
 import { getFirestore, onSnapshot } from "firebase/firestore";
 import { query, collection } from "firebase/firestore";
 import { firebaseApp } from "./../../Firebase";
+import logo from "../../assets/pngwing.com.png"
 
 const Car = ({ selectedCar }) => {
   const firestore = getFirestore(firebaseApp);
@@ -26,16 +27,19 @@ const Car = ({ selectedCar }) => {
     getCars();
   }, []);
   return (
+    
     <div name="car" className="car">
       <div className="container">
+      <img className="logo" src={logo}/>
         <div className="top">
-          <h1>Select Car</h1>
+          
+
+        <h1>Formular 1 </h1>
+        <h1 className="grand">Grand Prix</h1>
         </div>
 
         <CarList cars={cars} selectedCar={selectedCar} />
-        <div className="bottom">
-          
-        </div>
+        <div className="bottom"></div>
       </div>
     </div>
   );

@@ -19,12 +19,11 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="container">
-        <div className={slide ? "logo slide-right" : "logo"}>
-          <h3>🏎️ F1 Grand Prix</h3>
+        <div className={slide ? "logo slide-right" : "logo"}>          
         </div>
 
-        <ul className={nav ? "nav-menu active" : "nav-menu"}>
-          <li>
+        <ul className={nav ? "nav-menu active" : "nav-menu" }>
+          <li className="card">
             <Link
               onClick={handleClose}
               activeClass="active"
@@ -36,7 +35,7 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li>
+          <li className="card">
             <Link
               onClick={handleClose}
               activeClass="active"
@@ -48,7 +47,7 @@ const Navbar = () => {
               Car Details
             </Link>
           </li>
-          <li>
+          <li className="card">
             <Link
               onClick={handleClose}
               activeClass="active"

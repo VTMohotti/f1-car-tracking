@@ -1,7 +1,7 @@
 .car {
     width: 100%;
     height: 100vh;
-    background: url("../../assets/car-bg.png") no-repeat center center/cover;
+    background: url("../../assets/carPage.jpg") no-repeat center center/cover;
   }
   
   .car .container {
@@ -13,11 +13,26 @@
     align-items: center;
     color: #fff;
   }
+
+  .car .container .logo {
+    margin-left: 50rem;
+    margin-top: 5rem;
+  }
   
   .car .top {
-    margin-top: 7rem;
-    color: #f6f6f6;
+    margin-top: -10rem;
+    margin-left: 55rem;
+    font-size: 2rem;
+    color: #000000;
   }
+
+  .car .grand {
+    margin-top: -3rem;
+    margin-left: -5rem;
+    font-size: 6rem;
+    color: #000000;
+  }
+
   .car .bottom {
     display: flex;
     justify-content: center;
