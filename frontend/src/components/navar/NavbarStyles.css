@@ -30,6 +30,8 @@
 
 .nav-menu {
     display: flex;
+    gap: 1rem;
+
 }
 
 .nav-menu li {
@@ -39,8 +41,9 @@
 
 .nav-menu .card {
     background-color: rgba(0, 0, 0, 0.333);
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 0.3rem;
+    
     cursor: pointer;
   }
 
